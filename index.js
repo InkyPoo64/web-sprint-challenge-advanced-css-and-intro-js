@@ -224,7 +224,6 @@ artists[8].name = "Vincent Van Gogh" ;
 console.log(artists[8].name) ;
 
 
-
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
  1. Receive an array
@@ -237,7 +236,6 @@ console.log(artists[8].name) ;
   return `the artist at index ${artists[index].id} is ${artists[index].name}`
 
 }  
-
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -288,7 +286,6 @@ Use addArtist to do the following:
       bio: Add 1-2 sentences (or use lorem ipsum)
     }  
 3. Return the resulting array
-
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(artists) {
@@ -319,8 +316,8 @@ function lotsOfArt(artists){
       masterPainter.push(artists[i].name)
       }
   return masterPainter ;
-
 }
+
 
 
 
